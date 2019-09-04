@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
-  <arg name="with_chest_xtion" default="false"/>
-  <arg name="chest_xtion_name" default="chest_xtion"/>
+  <arg name="with_chest_xtion" default="true"/>
+  <arg name="chest_xtion_name" default="chest_rs"/>
   <arg name="chest_xtion_machine" default="localhost"/>
   <arg name="chest_xtion_user" default=""/>
 

@@ -3,7 +3,7 @@
 	<arg name="user" default="" />
 
 	<arg name="with_mux" default="false" />
-	<arg name="js" default="$(optenv JOYSTICK_DEVICE /dev/js1)" />
+	<arg name="js" default="$(optenv JOYSTICK_DEVICE /dev/js0)" />
 	<arg name="laser" default="/dev/ttyUSB0" />
 	<arg name="ptu" default="/dev/ttyS0" />
 	<arg name="scitos_config" default="$(find scitos_mira)/resources/SCITOSDriver.xml"/>
